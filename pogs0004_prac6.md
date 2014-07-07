@@ -11,7 +11,7 @@ In this document I am proposing an overview of what should be considered in an a
 Decomposition
 ----------------
 The nuclear power reactors used by Russia in the era leading up to the Chernobyl disaster had specific operational constraints that needed to be followed in order to prevent meltdown. While this might seem obvious for any system of this type where the prevention of failures is of critical importance, the Russian rectors at the time where designed with some inherent instabilities and fail points. While this is true, to a point, for all nuclear reactors, the fail safe in the Russian systems were inadequate and in some respects non-existent. 
-The critical operational constraint that was not adhered to in the case of the Chernobyl disaster was in regard to the number of fuel rods allowed to be raised (removed) from the reactor core. Should not enough rods be left lowered into the reactor core, the reactor would quickly overheat. To compound the problem, once this unstable overheating state had been reached in these reactors, there was no fail safe in place that could recognise and correct the issue. This was both a missing feature and a design floor in these particular Russian reactors to the point that the design of the system would actually compound the overheating problem.
+The critical operational constraint that was not adhered to in the case of the Chernobyl disaster was in regard to the number of control rods allowed to be raised (removed) from the reactor core. Should not enough rods be left lowered into the reactor core, the reactor would quickly overheat. To compound the problem, once this unstable overheating state had been reached in these reactors, there was no fail safe in place that could recognise and correct the issue. This was both a missing feature and a design floor in these particular Russian reactors to the point that the design of the system would actually compound the overheating problem.
 
 Test Plans
 -----------
@@ -30,8 +30,8 @@ So what if there’s a fault in the test platform? The sanity check on testing t
 
 Unit testing
 ------------
-This would be an important part of a test plan for such a system as it would lend the opportunity for safely testing the system directly (in place). By isolating areas of the power plant to test individually, most areas of the system could be tested with minimal risk. For example, knowing there is an adequate fail safe backup cooling system in place, the unit that controls the raising and lowering of the fuel rods could be effectively tested. 
-Constraints on the number of fuel rods raised, resultant alerts and preventative procedures could be tested with unit testing. 
+This would be an important part of a test plan for such a system as it would lend the opportunity for safely testing the system directly (in place). By isolating areas of the power plant to test individually, most areas of the system could be tested with minimal risk. For example, knowing there is an adequate fail safe backup cooling system in place, the unit that controls the raising and lowering of the control rods could be effectively tested. 
+Constraints on the number of control rods raised, resultant alerts and preventative procedures could be tested with unit testing. 
 
 Interference Testing
 ----------------------
